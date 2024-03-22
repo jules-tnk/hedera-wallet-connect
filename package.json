@@ -10,7 +10,8 @@
   "module": "./dist/node-esm.js",
   "browser": {
     "./dist/node-cjs.js": "./dist/browser-cjs.js",
-    "./dist/node-esm.js": "./dist/browser-esm.js"
+    "./dist/node-esm.js": "./dist/browser-esm.js",
+    "crypto": false
   },
   "types": "./dist/types/src/index.d.ts",
   "author": "Hgraph <support@hgraph.io>",
